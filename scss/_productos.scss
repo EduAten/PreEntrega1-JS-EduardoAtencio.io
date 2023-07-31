@@ -1,0 +1,27 @@
+/* Estilos de las tarjetas de producto */
+.row {
+    overflow: hidden;
+    margin: 0%;
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-primary {
+    font-size: 1.2rem;
+  }
+  li{font-family: 'Oswald', sans-serif;}
+  

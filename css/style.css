@@ -1,0 +1,274 @@
+@charset "UTF-8";
+@import "normalize.css";
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilos de la sección principal */
+body {
+  margin: 0%;
+}
+
+.navbar {
+  margin: 0%;
+}
+
+.jumbotron {
+  font-family: "Roboto Slab", serif;
+}
+
+.boton-a-productos {
+  font-family: "Roboto Slab", serif;
+}
+
+.boton-a-productos {
+  color: #fff;
+}
+
+.card-body {
+  font-family: "Roboto Slab", serif;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body {
+  background-color: #333;
+}
+
+.card-body {
+  color: #fff;
+}
+
+.card-body {
+  display: block;
+  height: 200px;
+  width: auto;
+  overflow: hidden;
+  margin: 0px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.jumbotron {
+  background-image: url(../img/fondoconcierto2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron h1 {
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.btn-primary {
+  font-size: 1.5rem;
+}
+
+.boton-a-ig {
+  font-family: "Roboto Slab", serif;
+}
+
+.boton-a-ig {
+  background-color: #333;
+  display: block;
+}
+
+.boton-a-ig {
+  color: #fff;
+}
+
+.btn-btn-primary {
+  color: #fff;
+}
+
+.footer {
+  overflow: hidden;
+}
+
+.row {
+  margin: 0px;
+}
+
+/* Estilos de las tarjetas de producto */
+.row {
+  overflow: hidden;
+  margin: 0%;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  font-size: 1.2rem;
+}
+
+li {
+  font-family: "Oswald", sans-serif;
+}
+
+/* contactos */
+.contacto input[type=text] {
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.formContacto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.textareaconsulta {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  resize: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.formContacto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 60%;
+  background-position: center;
+  justify-content: center;
+  margin: 0%;
+}
+
+input[type=button] {
+  background-color: rgb(204, 151, 90);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(199, 197, 196);
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Estilos para la vista mobile */
+@media (max-width: 730px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+  .jumbotron {
+    height: auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  .jumbotron h1 {
+    font-size: 3rem;
+  }
+  .jumbotron p {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.footer {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Estilos para la vista desktop */
+@media (min-width: 768px) {
+  .jumbotron h1 {
+    font-size: 5rem;
+  }
+  .jumbotron p {
+    font-size: 1.8rem;
+  }
+}
+/* Importar Normalize.css */
+/* Variables */
+
+/*# sourceMappingURL=style.css.map */

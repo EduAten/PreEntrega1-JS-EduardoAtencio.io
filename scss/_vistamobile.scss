@@ -1,0 +1,41 @@
+/* Estilos para la vista mobile */
+@media (max-width: 730px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  
+    .nav-link {
+      font-size: 1rem;
+    }
+  
+    .jumbotron {
+      height: auto;
+      padding: 2rem;
+      text-align: center;
+    }
+  
+    .jumbotron h1 {
+      font-size: 3rem;
+      
+    }
+  
+    .jumbotron p {
+      font-size: 1.2rem;
+      
+    }
+  
+    
+  }
+  @media (min-width: 768px) {
+    .footer {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .footer {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  text-align: center;
+  
+  }

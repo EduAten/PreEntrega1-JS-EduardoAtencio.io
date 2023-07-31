@@ -1,0 +1,65 @@
+/* Estilos de la sección principal */
+body{margin: 0%;}
+
+.navbar{margin: 0%;}
+
+.jumbotron {font-family: 'Roboto Slab', serif;
+}
+.boton-a-productos{font-family: 'Roboto Slab', serif;}
+.boton-a-productos{color: #fff;}
+.card-body {font-family: 'Roboto Slab', serif;}
+.card-body{text-align: center;}
+.card-body{background-color: #333;}
+.card-body{color: #fff;}
+
+.card-body{display: block;
+height: 200px;
+width: auto;
+overflow: hidden;
+margin: 0px;
+}
+
+.card-img-top { width: 100%;
+  height: auto;
+  overflow: hidden; }
+    
+.jumbotron {
+  background-image: url(../img/fondoconcierto2.jpg);
+  background-size: cover;
+  background-position: center;
+  height:650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron h1 {
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.btn-primary {
+  font-size: 1.5rem;
+}
+ .boton-a-ig{font-family: 'Roboto Slab', serif;}
+ .boton-a-ig{background-color: #333;display: block;
+;}
+ .boton-a-ig{color: #fff;}
+
+ .btn-btn-primary{color: #fff;}
+
+ .footer {overflow: hidden}
+ .row { margin: 0px;}
+
+ 
